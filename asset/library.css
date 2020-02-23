@@ -1,0 +1,79 @@
+fieldset {
+	background: #e6e6e6;
+	min-height:580px;
+}
+
+legend {
+	background: #FF9;
+	border: solid 1px black;
+	padding: 0px 30px 0px 30px;
+	border-radius: 80px;
+}
+
+table {
+	font-family: arial;
+	border-collapse: collapse;
+	width: 95%;
+	margin-left: 2.5%;
+	max-height: 520px;
+}
+
+tr:nth-child(even) {
+	background-color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: #e6ecff;
+}
+
+td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+th {
+	border: 1px solid white;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 8px 30px 8px 30px;
+}
+
+#serial {
+	padding: 8px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.response {
+	text-align: center;
+	width: 95%;
+	margin: 0% 2.5% 0% 2.5%;
+} 
+
+.status {
+	font-size: 18px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.filter {
+	text-align: right;
+	width: 97.5%;
+	margin-bottom: 5px;
+}
+
+.filter input {
+	width: 17px;
+	height: 17px;
+	vertical-align: middle;
+}
+
+.filter span {
+	vertical-align: middle;
+}
