@@ -1,4 +1,31 @@
 ###################
+Instructions:
+###################
+
+1) Import DB from file library.sql.
+2) Change hostname, username, password and database according to the environment.
+3) Access URL: hostname/CiLibrary
+4) Click on Issue and enter existing user email in prompt box.
+5) Click on Return and it will return the book.
+6) Use checkbox to show, available or all books.
+7) Mouseover on Available column symbol shows name of the user for whom book is pending. (Only if book isn't available initially)
+8) Books and Users needs to be created from DB only. (Book History will be created from actions)
+
+###################
+Details:
+###################
+
+1) Initial view for Admin user is added.
+2) user type and login can be used to provide restricted access implementation.
+3) Issue, Return and filter options are added. ( Pagination, Searching, Sorting can be added if needed )
+4) Some delays are added to avoid multiple clicks.
+5) Basic validations are added to handle proper data.
+6) Error handling is considered for all actions.
+7) Bookid is considered as unique id so that one book can be issued to only one user at a time.
+
+
+
+###################
 What is CodeIgniter
 ###################
 
